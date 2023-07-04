@@ -8,14 +8,36 @@ import { Routes, Route } from 'react-router-dom'
 
 
 const App = () => {
+
+  const routes = [
+    {
+      path: '/',
+      element: <Home />
+    },
+    {
+      path: '/about-us',
+      element: <AboutUs />
+    },
+    {
+      path: '/disclaimer',
+      element: <Disclaimer />
+    },
+    {
+      path: '/privacy-policy',
+      element: <PrivacyPolicy />
+    },
+
+  ]
+
   return (
     <React.Fragment>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/disclaimer" element={<Disclaimer />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        {
+          routes.map(item => (
+            <Route path={item.path} element={item.element} />
+          ))
+        }
       </Routes>
     </React.Fragment>
   )
