@@ -29,11 +29,11 @@ const Header = () => {
   return (
     <div className='lg:w-[720px] lg:m-auto m-5 flex lg:flex-row flex-col justify-between items-center py-5 gap-2'>
       <div className='flex flex-col'>
-        <img src="/logo.svg" alt="logo_" />
+        <img src="/logo.svg" alt="logo_" className='' />
         <h2 className='font-mono text-base font-bold'>Cosmic Abyss</h2>
       </div>
 
-      <div className='flex items-center gap-10'>
+      <div className='flex lg:flex-row md:flex-row flex-col items-center lg:gap-10 gap-5'>
         {
           menuItems.map((item, index) => (
             <Link key={index + 1 + item.name} to={item.link}>
