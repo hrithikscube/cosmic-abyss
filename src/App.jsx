@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom'
 import Disclaimer from './components/pages/Disclaimer'
 import PrivacyPolicy from './components/pages/PrivacyPolicy'
 import Blackholes from './components/pages/articles/Blackholes'
+import Banner from './components/Banner'
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
 
   return (
     <React.Fragment>
+      <Banner />
       <Header />
       <Routes>
         {
