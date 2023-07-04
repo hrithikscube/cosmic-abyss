@@ -114,3 +114,22 @@ export const about = [
         description: "We believe that the exploration of space is not just limited to scientific research; it is a journey that can be shared and experienced by all. That is why we have created a vibrant community where like-minded individuals can come together, engage in discussions, and share their passion for space exploration. Join our forums, participate in conversations, and connect with fellow enthusiasts from around the globe."
     }
 ]
+
+export const articles = [
+    {
+        title: "Exploring the Enigmatic Abyss: What Are Black Holes?",
+        description: " In the vast expanse of space, amidst the celestial wonders and cosmic mysteries, black holes stand as enigmatic powerhouses that both captivate and challenge our understanding of the universe. These cosmic abysses, with their immense gravitational pull and mind-bending properties, have long intrigued scientists and fascinated stargazers. In this article, we embark on a journey to unravel the mysteries surrounding black holes and shed light on what they truly are.",
+        link: '/articles/blackholes'
+    },
+    {
+        title: "Exploring the Enigmatic Abyss: What Are Black Holes?",
+        description: " In the vast expanse of space, amidst the celestial wonders and cosmic mysteries, black holes stand as enigmatic powerhouses that both captivate and challenge our understanding of the universe. These cosmic abysses, with their immense gravitational pull and mind-bending properties, have long intrigued scientists and fascinated stargazers. In this article, we embark on a journey to unravel the mysteries surrounding black holes and shed light on what they truly are.",
+        link: '/articles/blackholes'
+    },
+    {
+        title: "Exploring the Enigmatic Abyss: What Are Black Holes?",
+        description: " In the vast expanse of space, amidst the celestial wonders and cosmic mysteries, black holes stand as enigmatic powerhouses that both captivate and challenge our understanding of the universe. These cosmic abysses, with their immense gravitational pull and mind-bending properties, have long intrigued scientists and fascinated stargazers. In this article, we embark on a journey to unravel the mysteries surrounding black holes and shed light on what they truly are.",
+        link: '/articles/blackholes'
+    },
+
+]

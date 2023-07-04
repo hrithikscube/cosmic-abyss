@@ -1,36 +1,25 @@
 import React from 'react'
-import { content } from '../../util/helpers'
+import { articles } from '../../util/helpers'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
-    return (
-        <React.Fragment>
-            <div className='lg:w-[720px] lg:m-auto flex flex-col m-5'>
-
-                <div className='flex flex-col mt-5'>
-                    <h1 className='font-sans lg:text-4xl md:text-4xl text-2xl font-bold'>Exploring the Enigmatic Abyss: What Are Black Holes?</h1>
-
-                    <p className='lg:text-lg text-base font-serif font-light mt-5 leading-relaxed tracking-wide text-[#292929]'>
-                        In the vast expanse of space, amidst the celestial wonders and cosmic mysteries, black holes stand as enigmatic powerhouses that both captivate and challenge our understanding of the universe. These cosmic abysses, with their immense gravitational pull and mind-bending properties, have long intrigued scientists and fascinated stargazers. In this article, we embark on a journey to unravel the mysteries surrounding black holes and shed light on what they truly are.
-                    </p>
+  return (
+    <div className='lg:w-[720px] lg:m-auto flex flex-col m-5'>
+      <br />
+      <h1 className='lg:text-3xl md:text-3xl text-2xl font-bold font-sans pl-4 mb-2'>Articles</h1>
+      {
+        articles.map((item, index) => (
+            <Link key={index + 1 + item.name} to={item.link}>
+                <div className=' border-b border-[#d6d6d6] p-4 hover:bg-[#f2f2f2] cursor-pointer'>
+                    <h1 className='lg:text-xl text-lg font-medium'>{item.title}</h1>
+                    <p className='text-base text-[#292929] my-2'>{item.description.slice(0, 323)}...</p>
                 </div>
-
-                {
-                    content.map((item, index) => (
-                        <div key={index + 1 + item.name} className='mt-5'>
-                            <h2 className='lg:text-xl text-lg font-bold'>{item.name}</h2>
-
-                            <p className='lg:text-lg text-base font-serif font-light mt-5 leading-relaxed tracking-wide'>
-                                {item.description}
-                            </p>
-                        </div>
-                    ))
-                }
-                <br />
-
-            </div>
-            
-        </React.Fragment>
-    )
+            </Link>
+        ))
+    }
+      <br />
+    </div>
+  )
 }
 
 export default Home

@@ -27,7 +27,7 @@ const Header = () => {
   const { pathname } = useLocation()
 
   return (
-    <div className='lg:w-[720px] lg:m-auto m-5 flex lg:flex-row flex-col justify-between items-center py-5 gap-2'>
+    <div className='lg:w-[720px] lg:m-auto flex lg:flex-row flex-col justify-between items-center py-5 gap-2 '>
       <div className='flex flex-col'>
         <img src="/logo.svg" alt="logo_" className='' />
         <h2 className='font-mono text-base font-bold'>Cosmic Abyss</h2>

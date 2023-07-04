@@ -1,10 +1,11 @@
 import React from 'react'
-import Home from './components/pages/Home'
-import PrivacyPolicy from './components/pages/PrivacyPolicy'
-import Disclaimer from './components/pages/Disclaimer'
-import AboutUs from './components/pages/AboutUs'
 import Header from './components/Header'
+import Home from './components/pages/Home'
+import AboutUs from './components/pages/AboutUs'
 import { Routes, Route } from 'react-router-dom'
+import Disclaimer from './components/pages/Disclaimer'
+import PrivacyPolicy from './components/pages/PrivacyPolicy'
+import Blackholes from './components/pages/articles/Blackholes'
 
 
 const App = () => {
@@ -21,6 +22,10 @@ const App = () => {
     {
       path: '/disclaimer',
       element: <Disclaimer />
+    },
+    {
+      path: '/articles/blackholes',
+      element: <Blackholes />
     },
     {
       path: '/privacy-policy',
