@@ -20,8 +20,16 @@ export const content = [
         description: "Black holes play a significant role in shaping the cosmos. They are thought to have a profound impact on the evolution of galaxies, as their immense gravitational forces can influence the motion and distribution of stars and gas. Furthermore, black holes provide a unique window into the fundamental laws of physics, allowing scientists to test theories such as general relativity and explore the boundaries of our understanding."
     },
     {
+        name: "Event Horizon: The Point of No Return",
+        description: "Surrounding the singularity is the event horizon, a boundary beyond which nothing can escape the black hole's gravitational grip. Once an object crosses the event horizon, it is inexorably drawn toward the singularity, destined to be consumed by the black hole's immense gravitational force."
+    },
+    {
+        name: "Black Hole's Evolution and Impact",
+        description: "Black holes continue to grow in size as they absorb surrounding matter, including gas, dust, and even other stars. They can have a profound impact on their cosmic surroundings, distorting spacetime, and influencing the evolution of galaxies. The study of black holes has led to breakthroughs in our understanding of gravity, the nature of spacetime, and the fundamental principles that govern the universe."
+    },
+    {
         name: "Conclusion:",
-        description: "Black holes, the cosmic abysses that have intrigued and puzzled humanity for decades, continue to be objects of intense scientific research and exploration. From their awe-inspiring formation to their gravitational dominance, these enigmatic entities push the boundaries of our knowledge and inspire a sense of wonder. As we venture further into the depths of the universe, the study of black holes promises to unveil new insights and unlock the secrets of the cosmos, bringing us closer to understanding the intricate workings of the universe we call home."
+        description: "The birth of a black hole is a captivating process that unfolds in the depths of the cosmos. Born from the remnants of massive stars, black holes possess an extraordinary gravitational force capable of defying the laws of physics. These enigmatic entities continue to captivate astronomers and researchers, inviting us to unravel the mysteries of the universe. As we delve deeper into the study of black holes, we inch closer to understanding the fabric of spacetime and our place in the grand tapestry of the cosmos."
     },
 ]
 
