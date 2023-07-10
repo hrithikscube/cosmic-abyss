@@ -7,6 +7,7 @@ import Disclaimer from './components/pages/Disclaimer'
 import PrivacyPolicy from './components/pages/PrivacyPolicy'
 import Blackholes from './components/pages/articles/Blackholes'
 import Banner from './components/Banner'
+import AreWeAlone from './components/pages/articles/AreWeAlone'
 
 
 const App = () => {
@@ -27,6 +28,10 @@ const App = () => {
     {
       path: '/articles/blackholes',
       element: <Blackholes />
+    },
+    {
+      path: '/articles/are-we-alone',
+      element: <AreWeAlone />
     },
     {
       path: '/privacy-policy',
