@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import Disclaimer from './components/pages/Disclaimer'
 import PrivacyPolicy from './components/pages/PrivacyPolicy'
 import ArticleTemplate from './components/ArticleTemplate'
-import { blackholes, areWeAlone,timetravel } from './util/helpers'
+import { blackholes, areWeAlone,timetravel, beyondearth } from './util/helpers'
 
 const App = () => {
 
@@ -39,6 +39,10 @@ const App = () => {
     {
       path: '/articles/timetravel',
       element: <ArticleTemplate data={timetravel} />
+    },
+    {
+      path: '/articles/beyond-earth',
+      element: <ArticleTemplate data={beyondearth} />
     },
 
   ]
