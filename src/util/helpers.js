@@ -111,6 +111,11 @@ export const articles = [
         description: "The question of whether life exists beyond Earth has captivated human curiosity for centuries. The vastness of the cosmos and the sheer number of celestial bodies have fueled our imaginations and sparked a relentless pursuit of answers. In this article, we delve into the intriguing topic of life apart from Earth, exploring the possibilities that exist beyond our home planet.",
         link: '/articles/beyond-earth'
     },
+    {
+        title: "Unveiling the Mysterious Mandela Effect: A Journey into Collective Memory",
+        description: "Have you ever vividly remembered an event, only to discover that your memory conflicts with the actual facts? If so, you might have experienced what is known as the Mandela Effect. Named after the peculiar phenomenon surrounding Nelson Mandela's alleged death, the Mandela Effect has captivated the minds of people worldwide. In this article, we'll dive deep into the enigmatic world of the Mandela Effect, exploring its origins, popular examples, and possible explanations.",
+        link: '/articles/mandela-effect'
+    },
 
 ]
 
@@ -258,3 +263,38 @@ export const beyondearth = {
     ]
 }
 
+export const mandelaEffect = {
+    mainTitle: 'Unveiling the Mysterious Mandela Effect: A Journey into Collective Memory',
+    introduction: "The question of whether life exists beyond Earth has captivated human curiosity for centuries. The vastness of the cosmos and the sheer number of celestial bodies have fueled our imaginations and sparked a relentless pursuit of answers. In this article, we delve into the intriguing topic of life apart from Earth, exploring the possibilities that exist beyond our home planet.",
+    image:'/images/multiple-planets.jpg',
+    content: [
+        {
+            name: "What is the Mandela Effect?",
+            description: "The Mandela Effect refers to a collective misremembering of past events or details that seem to differ from the actual historical record. It was coined by paranormal enthusiast Fiona Broome, who discovered that a significant number of people believed Nelson Mandela had died in prison during the 1980s, despite the fact that he was released in 1990 and went on to become the President of South Africa."
+        },
+        {
+            name: "The Berenstein/Berenstain Bears:",
+            description: 'One of the most well-known Mandela Effect examples is the case of the Berenstain Bears. Many individuals distinctly remember the popular children book series as "Berenstein Bears," spelled with an "e" instead of an "a." However, the books have always been titled "Berenstain Bears," with an "a." This stark difference between personal memories and documented evidence has left many people questioning their own recollections.'
+        },
+        {
+            name: "The Sinbad Genie Movie:",
+            description: "Another puzzling instance is the supposed Sinbad genie movie from the 1990s. Numerous individuals claim to remember a film called 'Shazam,' featuring actor Sinbad as a genie. However, no evidence of such a movie has ever been found. It's fascinating how a collective false memory can emerge, with so many people sharing the same detailed recollection of a non-existent film."
+        },
+        {
+            name: "The Monopoly Man's Monocle:",
+            description: "When picturing the iconic Monopoly Man, many people visualize him wearing a black top hat, a white mustache, and, most notably, a monocle. However, in reality, the Monopoly Man, whose name is Rich Uncle Pennybags, has never worn a monocle. This discrepancy between our memories and the actual representation of the character exemplifies the curious nature of the Mandela Effect."
+        },
+        {
+            name: "Explanation and Theories:",
+            description: "So, why does the Mandela Effect occur? Several theories attempt to explain this phenomenon. One possibility is the fallibility of human memory. Our recollections are not as reliable as we might think, and our minds can unintentionally fill in gaps or alter details over time. Another theory suggests that parallel universes or alternate timelines could be responsible for the Mandela Effect. According to this idea, when different realities converge, memories from one reality can spill over into another, leading to discrepancies between personal recollections and objective reality."
+        },
+        {
+            name: "The Impact of the Mandela Effect:",
+            description: "The Mandela Effect has gained significant attention in popular culture, captivating the interest of skeptics and conspiracy theorists alike. It has spawned countless online communities and discussion forums where individuals share their personal experiences and theories regarding this intriguing phenomenon. Additionally, the Mandela Effect serves as a reminder of the malleability of memory and the complexities of human perception, prompting us to question our own assumptions and challenge the notion of objective truth."
+        },
+        {
+            name: "Conclusion:",
+            description: "The Mandela Effect presents a fascinating conundrum that blurs the line between collective memory and documented reality. Whether it's misremembering the name of a beloved childhood book series or recalling a nonexistent movie, these instances challenge our understanding of how our minds construct and store memories. While scientists continue to explore the underlying mechanisms behind this phenomenon, the Mandela Effect serves as a powerful reminder of the intricacies of human cognition and the fascinating quirks of our collective memory."
+        },
+    ]
+}

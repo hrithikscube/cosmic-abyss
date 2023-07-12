@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import Disclaimer from './components/pages/Disclaimer'
 import PrivacyPolicy from './components/pages/PrivacyPolicy'
 import ArticleTemplate from './components/ArticleTemplate'
-import { blackholes, areWeAlone,timetravel, beyondearth } from './util/helpers'
+import { blackholes, areWeAlone,timetravel, beyondearth, mandelaEffect } from './util/helpers'
 
 const App = () => {
 
@@ -43,6 +43,10 @@ const App = () => {
     {
       path: '/articles/beyond-earth',
       element: <ArticleTemplate data={beyondearth} />
+    },
+    {
+      path: '/articles/mandela-effect',
+      element: <ArticleTemplate data={mandelaEffect} />
     },
 
   ]
