@@ -37,17 +37,21 @@ const App = () => {
       path: '/privacy-policy',
       element: <PrivacyPolicy />
     },
-
   ]
 
   return (
     <React.Fragment>
-      <Banner />
-      <Header />
+
       <Routes>
         {
           routes.map(item => (
-            <Route path={item.path} element={item.element} />
+            <Route
+              path={item.path}
+              element={<>
+                <Banner />
+                <Header />
+                {item.element}
+              </>} />
           ))
         }
       </Routes>
