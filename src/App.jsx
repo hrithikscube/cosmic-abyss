@@ -1,14 +1,13 @@
 import React from 'react'
+import Banner from './components/Banner'
 import Header from './components/Header'
 import Home from './components/pages/Home'
 import AboutUs from './components/pages/AboutUs'
 import { Routes, Route } from 'react-router-dom'
 import Disclaimer from './components/pages/Disclaimer'
 import PrivacyPolicy from './components/pages/PrivacyPolicy'
-import Blackholes from './components/pages/articles/Blackholes'
-import Banner from './components/Banner'
-import AreWeAlone from './components/pages/articles/AreWeAlone'
-
+import ArticleTemplate from './components/ArticleTemplate'
+import { blackholes, areWeAlone,timetravel } from './util/helpers'
 
 const App = () => {
 
@@ -26,17 +25,22 @@ const App = () => {
       element: <Disclaimer />
     },
     {
-      path: '/articles/blackholes',
-      element: <Blackholes />
-    },
-    {
-      path: '/articles/are-we-alone',
-      element: <AreWeAlone />
-    },
-    {
       path: '/privacy-policy',
       element: <PrivacyPolicy />
     },
+    {
+      path: '/articles/blackholes',
+      element: <ArticleTemplate data={blackholes} />
+    },
+    {
+      path: '/articles/are-we-alone',
+      element: <ArticleTemplate data={areWeAlone} />
+    },
+    {
+      path: '/articles/timetravel',
+      element: <ArticleTemplate data={timetravel} />
+    },
+
   ]
 
   return (
