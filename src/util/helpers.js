@@ -117,6 +117,7 @@ export const articles = [
 export const blackholes = {
     mainTitle: 'Exploring the Enigmatic Abyss: What Are Black Holes?',
     introduction: 'In the vast expanse of space, amidst the celestial wonders and cosmic mysteries, black holes stand as enigmatic powerhouses that both captivate and challenge our understanding of the universe. These cosmic abysses, with their immense gravitational pull and mind-bending properties, have long intrigued scientists and fascinated stargazers. In this article, we embark on a journey to unravel the mysteries surrounding black holes and shed light on what they truly are.',
+    image:'/images/blackhole.jpg',
     content: [
         {
             name: "The Birth of a Black Hole:",
@@ -156,6 +157,7 @@ export const blackholes = {
 export const areWeAlone = {
     mainTitle: 'Are We Alone in This Universe? Unraveling the Cosmic Enigma',
     introduction: 'Throughout human history, the question of whether we are alone in the vast expanse of the universe has captivated our imaginations. Countless stars, galaxies, and planets populate the cosmos, leaving us to ponder the possibility of extraterrestrial life. While we have yet to definitively answer this age-old question, recent scientific discoveries and technological advancements have brought us closer to unraveling the cosmic enigma. In this article, we will explore the arguments and evidence surrounding the existence of alien life, contemplating the implications of both its presence and absence.',
+    image:'',
     content: [
         {
             name: "The Fermi Paradox:",
@@ -187,6 +189,7 @@ export const areWeAlone = {
 export const timetravel = {
     mainTitle: 'Time Travel: Exploring the Boundless Frontiers of the Cosmic Abyss',
     introduction: 'Time travel has captivated the human imagination for centuries, fueling our innate curiosity about the mysteries of the universe. The concept of traversing through time, exploring the past or glimpsing into the future, invokes awe and wonder. In this blog article, we embark on a journey into the cosmic abyss to delve into the fascinating world of time travel, its theoretical foundations, and its implications for the human experience.',
+    image:'/images/timetravel.jpg',
     content: [
         {
             name: "Unveiling the Theories:",
@@ -222,6 +225,7 @@ export const timetravel = {
 export const beyondearth = {
     mainTitle: 'Life Apart from Earth: Exploring the Possibilities Beyond Our Planet',
     introduction: 'The question of whether life exists beyond Earth has captivated human curiosity for centuries. The vastness of the cosmos and the sheer number of celestial bodies have fueled our imaginations and sparked a relentless pursuit of answers. In this article, we delve into the intriguing topic of life apart from Earth, exploring the possibilities that exist beyond our home planet.',
+    image:'/images/mars.jpg',
     content: [
         {
             name: "The Search for Extraterrestrial Life:",

@@ -12,6 +12,11 @@ const ArticleTemplate = ({ data }) => {
                 </p>
             </div>
 
+            <div className='mt-5'>
+                <img src={data.image === '' ? '/images/earth.jpg' : data.image} alt="mars" />
+            </div>
+
+
             {
                 data.content.map((item, index) => (
                     <div key={index + 1 + item.name} className='mt-5'>
