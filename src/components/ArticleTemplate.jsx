@@ -22,6 +22,14 @@ const ArticleTemplate = ({ data }) => {
                     <div key={index + 1 + item.name} className='mt-5'>
                         <h2 className='lg:text-xl text-lg font-bold'>{item.name}</h2>
 
+                        {
+                            item.img !== '' && (
+                                <div>
+                                    <img src={item.img} alt="content_image" />
+                                </div>
+                            )
+                        }
+
                         <p className='lg:text-lg text-base font-serif font-light mt-5 leading-relaxed tracking-wide'>
                             {item.description}
                         </p>
