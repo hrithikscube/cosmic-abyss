@@ -16,7 +16,7 @@ const ArticleTemplate = ({ data }) => {
             </div>
 
             <div className='mt-5'>
-                <Image width={500} height={500} style={{ minWidth: 'auto', minHeight: 'auto' }} src={data?.image === '' ? '/images/earth.jpg' : data?.image} alt="mars" />
+                <Image width={500} height={500} style={{ minWidth: 'auto', minHeight: 'auto' }} className='w-full lg:min-h-[350px] object-contain' src={data?.image === '' ? '/images/earth.jpg' : data?.image} alt="mars" />
             </div>
 
             {
@@ -27,7 +27,7 @@ const ArticleTemplate = ({ data }) => {
                         {
                             item.img !== '' && (
                                 <div>
-                                    <Image width={500} height={500} style={{ minWidth: 'auto', minHeight: 'auto' }} src={item.img} alt="content_image" />
+                                    <Image width={500} height={500} style={{ minWidth: 'auto', minHeight: 'auto' }} src={item.img} alt="content_image" className='w-full lg:h-[350px] object-contain' />
                                 </div>
                             )
                         }
